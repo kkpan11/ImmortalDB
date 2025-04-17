@@ -71,5 +71,14 @@ module.exports = (env, argv) => ({
     },
     devServer: {
         port: 9234,
+        static: [
+            {
+                publicPath: '/testing',
+                directory: path.join(__dirname, 'testing')
+            }
+        ],
+        compress: true,
+        hot: true,
+        open: true
     },
 })

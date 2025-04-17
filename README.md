@@ -27,7 +27,7 @@ ImmortalDB is resilient in the face of such events.
 In this way, ImmortalDB is like
 [Evercookie](https://github.com/samyk/evercookie), but
 
-  1. Is actively maintained and well documented.
+  1. Has a well-documented API.
 
   2. Provides a simple, modern, [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)-based API.
 
@@ -157,10 +157,12 @@ Or include `dist/immortal-db[.min].js` and use `window.ImmortalDB` directly.
   <head>
     <script src="immortal-db.min.js"></script>
     <script>
+
       ;(async () => {
         const db = ImmortalDB.ImmortalDB
         await db.set('hi', 'lolsup')
       })()
+
     </script>
   </head>
 
