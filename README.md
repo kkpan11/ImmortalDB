@@ -27,18 +27,16 @@ ImmortalDB is resilient in the face of such events.
 In this way, ImmortalDB is like
 [Evercookie](https://github.com/samyk/evercookie), but
 
-  1. Has a well-documented API.
+  1. Provides a simple, modern, [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)-based API.
 
-  2. Provides a simple, modern, [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)-based API.
-
-  3. Strikes an equitable balance between reliability and respect for the
+  2. Strikes an equitable balance between reliability and respect for the
      user. Data is stored reliably but can also be voluntarily purged if the
      user designedly clears cookies and application storage.
 
-  4. Doesn't use nefarious exploits nor deprecated third party plugins like
+  3. Doesn't use nefarious exploits nor deprecated third party plugins like
      Flash, Silverlight, or Java. Only standard, ratified HTML5 APIs are used.
 
-  5. Doesn't vandalize performance or the user experience. For example,
+  4. Doesn't vandalize performance or the user experience. For example,
      Evercookie's CSS History Knocking can beget a deluge of background HTTP
      requests, and loading Silverlight or Flash can raise unsought permission
      modals or thrash the user's disk.
